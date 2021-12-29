@@ -1,4 +1,4 @@
-# Esutdo-CSS
+# Estudo-CSS
 --------------------------------------------------
 Em CSS, a maneira na qual fazemos as implementações varia entre três formas:
 
