@@ -91,6 +91,42 @@ Complementarmente, o CSS fornece as 'divs' e o 'span' que são formas de estrutu
 
 Perceba que, já que o 'span' é do tipo linha podemos colocar um na frente do outro, o contrário das 'divs', por serem do tipo bloco, podem ser colocadas apenas um abaixo do outro, por enquanto.
 
+Outra propriedade além da cor que pode ser alterada é a borda, na qual escrevemos na seguinte sintaxe:
+
+~~~html
+
+<html>
+
+  <head>
+    <style type = "text/css">
+      .exemplo{
+        border : 15px solid green;
+    </style>
+</html>
+~~~
+
+Quanto às cores, podemos usar hexadecimal para definirmos algumas mais específicas.
+A fonte também pode ser alterada a partir de alguns padrões :
+
+~~~html
+<html>
+  <head>
+    <style type = "text/css">
+      .exemplo{
+          color : #6A5ACD;
+          font-size : 30px;
+          font-weight : bold; /*representa o peso da fonte, no caso, negrito*/
+          font-family : "Times New Roman", Times, serif;
+          font-style : italic;
+          text-decoration: underline; /* poderia ser overline, line-through... */
+      }
+    </style>  
+  </head>
+</html>
+~~~
+A fonte quando tiver nome composto deve estar entre aspas e devemos definir uma ordem de preferência de utilização para caso o usuário do Web Site não possua a primeira escolhida. Podemos definir uma específica e no fim uma genérica ( como a família serif ), para garantir que tenha em último caso.
+O tamanho da fonte pode ser definido por píxels (px), % (relativa ao padrão) e 'em' (relativa ao container pai). Esse último se explica ao aplicarmos, por exemplo, ao 'head' um tamanho de fonte de 30px, se dentro do head tivermos um tamanho de fonte para um 'parágrafo' de 2em, o tamanho ser duas vezes 30px = 60px 
+Também podemos definir a fonte em uma única linha, da forma 'font: bold 40px Times'
 
 
 
