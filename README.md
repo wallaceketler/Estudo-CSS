@@ -128,6 +128,31 @@ A fonte quando tiver nome composto deve estar entre aspas e devemos definir uma 
 O tamanho da fonte pode ser definido por píxels (px), % (relativa ao padrão) e 'em' (relativa ao container pai). Esse último se explica ao aplicarmos, por exemplo, ao 'head' um tamanho de fonte de 30px, se dentro do head tivermos um tamanho de fonte para um 'parágrafo' de 2em, o tamanho ser duas vezes 30px = 60px 
 Também podemos definir a fonte em uma única linha, da forma 'font: bold 40px Times'
 
+---------------------------------------------
+
+Podemos também alterar as configurações de background de certo container:
+
+~~~~html
+<html>
+
+  <head>
+  
+    <style type = "text/css">
+      .exemplo{
+          background-color;                   -> define cor de fundo do container que a classe trabalha
+          background-image: url([local]);     -> pega imagem de algum locala
+          background-repeat: no-repeat;       -> define se a imagem, quando não completa todo container vai repetir ou não
+          background-attachment: scroll;      -> define se vai sumir ao rolar ou não(fixed)
+          background-position: center center; -> define primeiro em X e depois em Y
+       
+      }
+  </head>
+  
+</html>
+
+~~~~
+
+
 
 
 
