@@ -150,8 +150,11 @@ Podemos também alterar as configurações de background de certo container:
   </head>
   
 </html>
-
 ~~~~
+
+### External 
+
+Podemos separar os estilos criados em CSS em outro arquivo diferente do que utilizamos para o HTML. Este arquivo deve ter a extensão .css. Isso se torna útil quando temos várias páginas, já que quando desejamos realizar uma alteração, precisariamos, sem este recurso, alterar em todas. 
 
 
 
