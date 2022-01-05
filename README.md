@@ -146,6 +146,7 @@ Podemos também alterar as configurações de background de certo container:
           background-position: center center; -> define primeiro em X e depois em Y
        
       }
+    </style>
   </head>
   
 </html>
